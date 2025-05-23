@@ -1,0 +1,11 @@
+{
+  "name": "codeconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AgathaDanttas/CodeConnect.git",
+  "author": "Agatha Dantas <workdantas@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+  "dev":"vite"
+  }
+}

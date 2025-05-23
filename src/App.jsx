@@ -7,6 +7,8 @@ import PaginaDeLogin from "./components/PaginaDeLogin";
 import CampoDeDigitacao from "./components/CampoDeDigitacao";
 import Button from "./components/Button";
 import Checkbox from "./components/Checkbox";
+import ContainerLinks from "./components/containerLinks";
+
 
 function App() {
   const [email, setEmail] = React.useState('');
@@ -41,6 +43,7 @@ function App() {
           </p>
         </fieldset>
         <Button />
+       <ContainerLinks/>
       </PaginaDeLogin>
     </>
   );
